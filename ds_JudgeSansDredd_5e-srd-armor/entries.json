@@ -5,6 +5,7 @@
     "data": {
       "armor_class": "11 + Dex modifier",
       "cost": "5 gp",
+      "name": "Padded Armor",
       "stealth_disadvantage": true,
       "strength_req": null,
       "type": "Light",
@@ -17,6 +18,7 @@
     "data": {
       "armor_class": "11 + Dex modifier",
       "cost": "10 gp",
+      "name": "Leather Armor",
       "stealth_disadvantage": false,
       "strength_req": null,
       "type": "Light",
@@ -29,6 +31,7 @@
     "data": {
       "armor_class": "12 + Dex modifier",
       "cost": "45 gp",
+      "name": "Studded Leather Armor",
       "stealth_disadvantage": false,
       "strength_req": null,
       "type": "Light",
@@ -41,6 +44,7 @@
     "data": {
       "armor_class": "12 + Dex modifier (max 2)",
       "cost": "10 gp",
+      "name": "Hide Armor",
       "stealth_disadvantage": false,
       "strength_req": null,
       "type": "Medium",
@@ -53,6 +57,7 @@
     "data": {
       "armor_class": "13 + Dex modifier (max 2)",
       "cost": "50 gp",
+      "name": "Chain Shirt",
       "stealth_disadvantage": false,
       "strength_req": null,
       "type": "Medium",
@@ -65,6 +70,7 @@
     "data": {
       "armor_class": "14 + Dex modifier (max 2)",
       "cost": "50 gp",
+      "name": "Scale Male",
       "stealth_disadvantage": true,
       "strength_req": null,
       "type": "Medium",
@@ -77,6 +83,7 @@
     "data": {
       "armor_class": "14 + Dex modifier (max 2)",
       "cost": "400 gp",
+      "name": "Breastplate",
       "stealth_disadvantage": false,
       "strength_req": null,
       "type": "Medium",
@@ -89,6 +96,7 @@
     "data": {
       "armor_class": "15 + Dex modifier (max 2)",
       "cost": "750 gp",
+      "name": "Half Plate",
       "stealth_disadvantage": true,
       "strength_req": null,
       "type": "Medium",
@@ -101,6 +109,7 @@
     "data": {
       "armor_class": "14",
       "cost": "30 gp",
+      "name": "Ring Mail",
       "stealth_disadvantage": true,
       "strength_req": null,
       "type": "Heavy",
@@ -113,6 +122,7 @@
     "data": {
       "armor_class": "16",
       "cost": "75 gp",
+      "name": "Chain Mail",
       "stealth_disadvantage": true,
       "strength_req": "13",
       "type": "Heavy",
@@ -125,6 +135,7 @@
     "data": {
       "armor_class": "17",
       "cost": "200 gp",
+      "name": "Splint Mail",
       "stealth_disadvantage": true,
       "strength_req": "15",
       "type": "Heavy",
@@ -137,6 +148,7 @@
     "data": {
       "armor_class": "18",
       "cost": "1500 gp",
+      "name": "Plate Mail",
       "stealth_disadvantage": true,
       "strength_req": "15",
       "type": "Heavy",
@@ -149,6 +161,7 @@
     "data": {
       "armor_class": "+2",
       "cost": "10 gp",
+      "name": "Shield",
       "stealth_disadvantage": false,
       "strength_req": null,
       "type": "Shield",
