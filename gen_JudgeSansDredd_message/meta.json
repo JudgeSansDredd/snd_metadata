@@ -1,0 +1,47 @@
+{
+	"name": "Message",
+	"slug": "message",
+	"author": "JudgeSansDredd",
+	"description": "Make messages to print out for your players",
+	"passEntriesToJS": false,
+	"config": [
+		{
+			"key": "show_header",
+			"name": "Show Header",
+			"description": "Do you want a title/header on this message?",
+			"type": "Checkbox",
+			"default": true
+		},
+		{
+			"key": "title",
+			"name": "Title",
+			"description": "What should the title be (i.e. the name of the person speaking)?",
+			"type": "Text",
+			"default": "Mysterious Stranger"
+		},
+		{
+			"key": "message",
+			"name": "Message",
+			"description": "The message being delivered",
+			"type": "Text",
+			"default": "Greetings, hero."
+		},
+		{
+			"key": "subtitle",
+			"name": "Subtitle",
+			"description": "What should appear directly under the title?",
+			"type": "Text",
+			"default": "A cloaked figure"
+		},
+		{
+			"key": "footer",
+			"name": "Footer",
+			"description": "What should appear in the footer?",
+			"type": "Text",
+			"default": "Do you respond?"
+		}
+	],
+	"images": {},
+	"dataSources": [],
+	"version": ""
+}
