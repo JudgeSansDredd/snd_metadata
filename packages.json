@@ -1,0 +1,12 @@
+{
+  "name": "JudgeSansDredd's Package Repo",
+  "author": "JudgeSansDredd",
+  "description": "Adds additional generators and templates for Sales and Dungeons",
+  "entries": [
+    {
+      "author": "JudgeSansDredd",
+      "contact": "JudgeSansDredd#9281",
+      "repos": ["https://github.com/JudgeSansDredd/snd_metadata.git"]
+    }
+  ]
+}
