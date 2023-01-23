@@ -1,0 +1,9 @@
+{
+	"armor_class": "18",
+	"cost": "1500 gp",
+	"name": "Plate Mail",
+	"stealth_disadvantage": true,
+	"strength_req": "15",
+	"type": "Heavy",
+	"weight": "65 lb."
+}

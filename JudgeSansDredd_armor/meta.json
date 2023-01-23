@@ -1,0 +1,10 @@
+{
+	"name": "Armor",
+	"slug": "armor",
+	"author": "JudgeSansDredd",
+	"description": "5E SRD armor",
+	"dataSources": [
+		"ds:JudgeSansDredd+5e-srd-armor"
+	],
+	"images": {}
+}

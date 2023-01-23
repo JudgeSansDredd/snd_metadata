@@ -1,0 +1,135 @@
+<style>
+  @font-face {
+    font-family: "nodesto-condensed";
+    src: url("/proxy/https://github.com/jonathonf/solbera-dnd-fonts/raw/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed.otf") format("opentype");
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: "Scaly Sans";
+    src: url("/proxy/https://github.com/jonathonf/solbera-dnd-fonts/raw/master/Scaly%20Sans/Scaly%20Sans.otf") format("opentype");
+    font-weight: normal;
+  }
+
+  .CardFront {
+    width: auto;
+    border-radius: 8px;
+  }
+
+  .CardContent {
+    padding: 10px 10px 6px;
+
+    font-family: "Scaly Sans", serif;
+    font-style: normal;
+    font-weight: 300;
+  }
+
+  .CardContent hr {
+    margin: 0;
+    height: 3px;
+  }
+
+  .Title {
+    padding: 2px 8px;
+    background-color: #e8ebec;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: "nodesto-condensed", serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .Subtitle {
+    padding: 4px;
+    text-align: center;
+    color: #e8ebec;
+    font-size: 1.15rem;
+    line-height: 1.15rem;
+  }
+
+  .DetailsContainer {
+    overflow: auto;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+  }
+
+  .DetailsBlock {
+    padding: 3px 8px;
+    background-color: #e8ebec;
+    font-size: 1.15rem;
+    line-height: 1.25rem;
+    padding: 8px;
+  }
+  
+  .DetailsBlock > div:nth-child(even) {
+    background-color: lightgray;
+  }
+
+  .CardFooter {
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    color: #e8ebec;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+  }
+
+  .Category {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-family: "nodesto-condensed", serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+  }
+  
+  .armor-class {
+    font-weight: bold;
+  }
+  
+  .row {
+  	display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4px 0px;
+  }
+  
+  .row.span {
+   	display: block;
+  }
+</style>
+{% set color = "black" %}
+<div class='CardFront' style="background-color: {{ color }}">
+  <div class='CardContent'>
+    <div class="Title">
+      {{ it.name }}
+    </div>
+    <div class="Subtitle">{{ it.type | capitalize }}</div>
+    <div class="DetailsContainer">
+      <div class="DetailsBlock">
+        <div class="armor-class row">
+          <div>Armor Class</div>
+          <div>{{ it.armor_class }}</div>
+        </div>
+        {% if it.strength_req != null %}
+        <div class="row">
+          <div>Strength Required</div>
+          <div>{{ it.strength_req }}</div>
+        </div>
+        {% endif %}
+        {% if it.stealth_disadvantage %}
+        <div class="row span">Stealth Checks at Disadvantage</div>
+        {% endif %}
+      </div>
+    </div>
+    <div class="CardFooter">
+      <div class="Category">{{ it.weight + " | " + it.cost }}</div>
+      <div></div>
+    </div>
+  </div>
+</div>
