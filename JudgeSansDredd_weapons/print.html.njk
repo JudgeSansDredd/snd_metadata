@@ -55,7 +55,7 @@
     overflow: auto;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    
+
   }
 
   .DetailsBlock {
@@ -65,7 +65,7 @@
     line-height: 1.25rem;
     padding: 8px;
   }
-  
+
   .DetailsBlock > div:nth-child(even) {
     background-color: lightgray;
   }
@@ -88,13 +88,13 @@
     font-style: normal;
     text-align: center;
   }
-  
+
   .damage {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-weight: bold;
   }
-  
+
   .row {
   	padding: 4px 0px;
   }
@@ -105,7 +105,7 @@
     <div class="Title">
       {{ it.name }}
     </div>
-    <div class="Subtitle">{{ it.category | capitalize }} {{ "("+it.requires_attunement+")" if it.requires_attunement }}</div>
+    <div class="Subtitle">{{ it.category | capitalize }}</div>
     <div class="DetailsContainer">
       <div class="DetailsBlock">
         <div class="damage row">
