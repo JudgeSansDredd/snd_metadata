@@ -1,0 +1,18 @@
+{
+	"category": "Martial Ranged Weapons",
+	"cost": "50 gp",
+	"damage_dice": "1d10",
+	"damage_type": "piercing",
+	"document__license_url": "http://open5e.com/legal",
+	"document__slug": "wotc-srd",
+	"document__title": "Systems Reference Document",
+	"name": "Crossbow, heavy",
+	"properties": [
+		"ammunition (range 100/400)",
+		"heavy",
+		"loading",
+		"two-handed"
+	],
+	"slug": "crossbow-heavy",
+	"weight": "18 lb."
+}
