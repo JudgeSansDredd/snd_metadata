@@ -6,13 +6,6 @@
 	"passEntriesToJS": false,
 	"config": [
 		{
-			"key": "show_header",
-			"name": "Show Header",
-			"description": "Do you want a title/header on this message?",
-			"type": "Checkbox",
-			"default": true
-		},
-		{
 			"key": "title",
 			"name": "Title",
 			"description": "What should the title be (i.e. the name of the person speaking)?",
@@ -20,18 +13,18 @@
 			"default": "Mysterious Stranger"
 		},
 		{
-			"key": "message",
-			"name": "Message",
-			"description": "The message being delivered",
-			"type": "Text",
-			"default": "Greetings, hero."
-		},
-		{
 			"key": "subtitle",
 			"name": "Subtitle",
 			"description": "What should appear directly under the title?",
 			"type": "Text",
 			"default": "A cloaked figure"
+		},
+		{
+			"key": "message",
+			"name": "Message",
+			"description": "The message being delivered",
+			"type": "Text",
+			"default": "Greetings, hero."
 		},
 		{
 			"key": "footer",
