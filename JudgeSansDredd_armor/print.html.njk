@@ -114,12 +114,12 @@
       <div class="DetailsBlock">
         <div class="armor-class row">
           <div>Armor Class</div>
-          <div>{{ it.armor_class }}</div>
+          <div>{{ it.ac_string }}</div>
         </div>
-        {% if it.strength_req != null %}
+        {% if it.strength_requirement != null %}
         <div class="row">
           <div>Strength Required</div>
-          <div>{{ it.strength_req }}</div>
+          <div>{{ it.strength_requirement }}</div>
         </div>
         {% endif %}
         {% if it.stealth_disadvantage %}
@@ -128,7 +128,7 @@
       </div>
     </div>
     <div class="CardFooter">
-      <div class="Category">{{ it.weight + " | " + it.cost }}</div>
+      <div class="Category">{{ it.cost }}</div>
       <div></div>
     </div>
   </div>
