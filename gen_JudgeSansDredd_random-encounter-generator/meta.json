@@ -1,0 +1,93 @@
+{
+	"name": "Random Encounter Generator",
+	"slug": "random-encounter-generator",
+	"author": "JudgeSansDredd",
+	"description": "",
+	"passEntriesToJS": false,
+	"config": [
+		{
+			"key": "n_pc",
+			"name": "Number of PCs",
+			"description": "How many player characters?",
+			"type": "Number",
+			"default": 4
+		},
+		{
+			"key": "level",
+			"name": "Level",
+			"description": "What is the (average) player level of the party?",
+			"type": "Number",
+			"default": 1
+		},
+		{
+			"key": "difficulty",
+			"name": "Difficulty",
+			"description": "How hard should this encounter be?",
+			"type": "Options",
+			"default": {
+				"choices": [
+					"any",
+					"easy",
+					"medium",
+					"hard",
+					"deadly"
+				],
+				"selected": "any"
+			}
+		},
+		{
+			"key": "environment",
+			"name": "Environment",
+			"description": "What environment is the encounter occurring in?",
+			"type": "Options",
+			"default": {
+				"choices": [
+					"Arctic",
+					"Coastal",
+					"Desert",
+					"Forest",
+					"Grassland",
+					"Hill",
+					"Jungle",
+					"Mountain",
+					"Swamp",
+					"Underdark",
+					"Underwater",
+					"Urban",
+					"Celestial Plane",
+					"Abyssal Plane",
+					"Infernal Plane",
+					"Elemental Air",
+					"Elemental Earth",
+					"Elemental Fire",
+					"Elemental Water"
+				],
+				"selected": "Urban"
+			}
+		},
+		{
+			"key": "loot_type",
+			"name": "Loot Type",
+			"description": "How much loot should there be in this encounter?",
+			"type": "Options",
+			"default": {
+				"choices": [
+					"None",
+					"Individual Treasure",
+					"Treasure Hoard"
+				],
+				"selected": "None"
+			}
+		},
+		{
+			"key": "n_encounters",
+			"name": "Number of Encounters",
+			"description": "How many encounters should be generated?",
+			"type": "Number",
+			"default": 10
+		}
+	],
+	"images": {},
+	"dataSources": [],
+	"version": ""
+}
