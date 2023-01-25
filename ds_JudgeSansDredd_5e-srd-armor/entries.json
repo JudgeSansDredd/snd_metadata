@@ -1,171 +1,308 @@
 [
   {
-    "id": "padded",
-    "name": "Padded Armor",
+    "id": "unarmored",
+    "name": "Unarmored",
     "data": {
-      "armor_class": "11 + Dex modifier",
+      "name": "Unarmored",
+      "slug": "unarmored",
+      "category": "No Armor",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "10 + Dex modifier",
+      "strength_requirement": null,
       "cost": "5 gp",
-      "name": "Padded Armor",
-      "stealth_disadvantage": true,
-      "strength_req": null,
-      "type": "Light",
-      "weight": "8 lb."
+      "weight": "",
+      "stealth_disadvantage": false
+    }
+  },
+  {
+    "id": "padded",
+    "name": "Padded",
+    "data": {
+      "name": "Padded",
+      "slug": "padded",
+      "category": "Light Armor",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "11 + Dex modifier",
+      "strength_requirement": null,
+      "cost": "5 gp",
+      "weight": "",
+      "stealth_disadvantage": true
     }
   },
   {
     "id": "leather",
-    "name": "Leather Armor",
+    "name": "Leather",
     "data": {
-      "armor_class": "11 + Dex modifier",
+      "name": "Leather",
+      "slug": "leather",
+      "category": "Light Armor",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "11 + Dex modifier",
+      "strength_requirement": null,
       "cost": "10 gp",
-      "name": "Leather Armor",
-      "stealth_disadvantage": false,
-      "strength_req": null,
-      "type": "Light",
-      "weight": "10 lb."
+      "weight": "",
+      "stealth_disadvantage": false
     }
   },
   {
     "id": "studded-leather",
-    "name": "Studded Leather Armor",
+    "name": "Studded Leather",
     "data": {
-      "armor_class": "12 + Dex modifier",
+      "name": "Studded Leather",
+      "slug": "studded-leather",
+      "category": "Light Armor",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "12 + Dex modifier",
+      "strength_requirement": null,
       "cost": "45 gp",
-      "name": "Studded Leather Armor",
-      "stealth_disadvantage": false,
-      "strength_req": null,
-      "type": "Light",
-      "weight": "13 lb."
+      "weight": "",
+      "stealth_disadvantage": false
     }
   },
   {
     "id": "hide",
-    "name": "Hide Armor",
+    "name": "Hide",
     "data": {
-      "armor_class": "12 + Dex modifier (max 2)",
+      "name": "Hide",
+      "slug": "hide",
+      "category": "Medium Armor",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "12 + Dex modifier (max 2)",
+      "strength_requirement": null,
       "cost": "10 gp",
-      "name": "Hide Armor",
-      "stealth_disadvantage": false,
-      "strength_req": null,
-      "type": "Medium",
-      "weight": "12 lb."
+      "weight": "",
+      "stealth_disadvantage": false
     }
   },
   {
     "id": "chain-shirt",
     "name": "Chain Shirt",
     "data": {
-      "armor_class": "13 + Dex modifier (max 2)",
-      "cost": "50 gp",
       "name": "Chain Shirt",
-      "stealth_disadvantage": false,
-      "strength_req": null,
-      "type": "Medium",
-      "weight": "20 lb."
+      "slug": "chain-shirt",
+      "category": "Medium Armor",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "13 + Dex modifier (max 2)",
+      "strength_requirement": null,
+      "cost": "50 gp",
+      "weight": "",
+      "stealth_disadvantage": false
     }
   },
   {
     "id": "scale-mail",
-    "name": "Scale Male",
+    "name": "Scale mail",
     "data": {
-      "armor_class": "14 + Dex modifier (max 2)",
+      "name": "Scale mail",
+      "slug": "scale-mail",
+      "category": "Medium Armor",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "14 + Dex modifier (max 2)",
+      "strength_requirement": null,
       "cost": "50 gp",
-      "name": "Scale Male",
-      "stealth_disadvantage": true,
-      "strength_req": null,
-      "type": "Medium",
-      "weight": "45 lb."
+      "weight": "",
+      "stealth_disadvantage": true
     }
   },
   {
     "id": "breastplate",
     "name": "Breastplate",
     "data": {
-      "armor_class": "14 + Dex modifier (max 2)",
-      "cost": "400 gp",
       "name": "Breastplate",
-      "stealth_disadvantage": false,
-      "strength_req": null,
-      "type": "Medium",
-      "weight": "20 lb."
+      "slug": "breastplate",
+      "category": "Medium Armor",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "14 + Dex modifier (max 2)",
+      "strength_requirement": null,
+      "cost": "400 gp",
+      "weight": "",
+      "stealth_disadvantage": false
     }
   },
   {
     "id": "half-plate",
-    "name": "Half Plate",
+    "name": "Half plate",
     "data": {
-      "armor_class": "15 + Dex modifier (max 2)",
+      "name": "Half plate",
+      "slug": "half-plate",
+      "category": "Medium Armor",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "15 + Dex modifier (max 2)",
+      "strength_requirement": null,
       "cost": "750 gp",
-      "name": "Half Plate",
-      "stealth_disadvantage": true,
-      "strength_req": null,
-      "type": "Medium",
-      "weight": "40 lb."
+      "weight": "",
+      "stealth_disadvantage": true
     }
   },
   {
     "id": "ring-mail",
-    "name": "Ring Mail",
+    "name": "Ring mail",
     "data": {
-      "armor_class": "14",
+      "name": "Ring mail",
+      "slug": "ring-mail",
+      "category": "Heavy Armor",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "14",
+      "strength_requirement": null,
       "cost": "30 gp",
-      "name": "Ring Mail",
-      "stealth_disadvantage": true,
-      "strength_req": null,
-      "type": "Heavy",
-      "weight": "40 lb."
+      "weight": "",
+      "stealth_disadvantage": true
     }
   },
   {
     "id": "chain-mail",
-    "name": "Chain Mail",
+    "name": "Chain mail",
     "data": {
-      "armor_class": "16",
+      "name": "Chain mail",
+      "slug": "chain-mail",
+      "category": "Heavy Armor",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "16",
+      "strength_requirement": 13,
       "cost": "75 gp",
-      "name": "Chain Mail",
-      "stealth_disadvantage": true,
-      "strength_req": "13",
-      "type": "Heavy",
-      "weight": "55 lb."
+      "weight": "",
+      "stealth_disadvantage": true
     }
   },
   {
-    "id": "splint-mail",
-    "name": "Splint Mail",
+    "id": "splint",
+    "name": "Splint",
     "data": {
-      "armor_class": "17",
+      "name": "Splint",
+      "slug": "splint",
+      "category": "Heavy Armor",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "17",
+      "strength_requirement": 15,
       "cost": "200 gp",
-      "name": "Splint Mail",
-      "stealth_disadvantage": true,
-      "strength_req": "15",
-      "type": "Heavy",
-      "weight": "60 lb."
+      "weight": "",
+      "stealth_disadvantage": true
     }
   },
   {
     "id": "plate-mail",
     "name": "Plate Mail",
     "data": {
-      "armor_class": "18",
-      "cost": "1500 gp",
       "name": "Plate Mail",
-      "stealth_disadvantage": true,
-      "strength_req": "15",
-      "type": "Heavy",
-      "weight": "65 lb."
+      "slug": "plate-mail",
+      "category": "Heavy Armor",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "18",
+      "strength_requirement": 15,
+      "cost": "1500 gp",
+      "weight": "",
+      "stealth_disadvantage": true
+    }
+  },
+  {
+    "id": "mage-armor",
+    "name": "Mage Armor",
+    "data": {
+      "name": "Mage Armor",
+      "slug": "mage-armor",
+      "category": "Spell",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "13 + Dex modifier",
+      "strength_requirement": null,
+      "cost": "0 gp",
+      "weight": "",
+      "stealth_disadvantage": false
+    }
+  },
+  {
+    "id": "unarmored-defense-barbarian",
+    "name": "Unarmored Defense (Barbarian)",
+    "data": {
+      "name": "Unarmored Defense (Barbarian)",
+      "slug": "unarmored-defense-barbarian",
+      "category": "Class Feature",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "10 + Dex modifier + Con modifier",
+      "strength_requirement": null,
+      "cost": "0 gp",
+      "weight": "",
+      "stealth_disadvantage": false
+    }
+  },
+  {
+    "id": "unarmored-defense-monk",
+    "name": "Unarmored Defense (Monk)",
+    "data": {
+      "name": "Unarmored Defense (Monk)",
+      "slug": "unarmored-defense-monk",
+      "category": "Class Feature",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "10 + Dex modifier + Wis modifier",
+      "strength_requirement": null,
+      "cost": "0 gp",
+      "weight": "",
+      "stealth_disadvantage": false
+    }
+  },
+  {
+    "id": "draconic-resilience",
+    "name": "Draconic Resilience",
+    "data": {
+      "name": "Draconic Resilience",
+      "slug": "draconic-resilience",
+      "category": "Class Feature",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "13 + Dex modifier",
+      "strength_requirement": null,
+      "cost": "0 gp",
+      "weight": "",
+      "stealth_disadvantage": false
     }
   },
   {
     "id": "shield",
     "name": "Shield",
     "data": {
-      "armor_class": "+2",
-      "cost": "10 gp",
       "name": "Shield",
-      "stealth_disadvantage": false,
-      "strength_req": null,
-      "type": "Shield",
-      "weight": "6 lb."
+      "slug": "shield",
+      "category": "Shield",
+      "document__slug": "wotc-srd",
+      "document__title": "Systems Reference Document",
+      "document__license_url": "http://open5e.com/legal",
+      "ac_string": "0 +2",
+      "strength_requirement": null,
+      "cost": "10 gp",
+      "weight": "",
+      "stealth_disadvantage": false
     }
   }
 ]
